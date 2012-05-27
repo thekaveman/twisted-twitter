@@ -94,6 +94,7 @@ class TWProtocol(twisted.protocols.basic.LineOnlyReceiver):
             % (NEW_LN, d["query"], len(rs), NEW_LN*2))
         for r in rs:
             output.append("TS: %s%s" % (r["created_at"], NEW_LN))
+            output.append("Geo: %s%s" % (r["geo"], NEW_LN))
             output.append("UserID: %s%s" % (r["from_user_id"], NEW_LN))
             output.append("UserName: %s%s" % (r["from_user"], NEW_LN))
             output.append("Text: %s%s" % (r["text"].replace("\\", ""), NEW_LN*2))
