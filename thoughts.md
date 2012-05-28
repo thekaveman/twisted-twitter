@@ -1,11 +1,11 @@
-Modify the program to use the Twitter Streaming API https://dev.twitter.com/docs/streaming-apis
+Modify the program to use the <a href="https://dev.twitter.com/docs/streaming-apis">`Twitter Streaming API`</a>
 
-The program connects and "listens" to Twitter, which periodically sends out a tweet to be processed.
-https://dev.twitter.com/docs/streaming-apis/connecting
+The program <a href="https://dev.twitter.com/docs/streaming-apis/connecting">connects</a>
+and "listens" to Twitter, which periodically sends out a tweet to be processed.
 
-Could have different options for listening, e.g. keyword based, user based, location based, combination
+Could have different options for listening, e.g. `keyword-based`, `user-based`, `location-based`
 
 Collect data and store in a database
 
-Will have to sign up for an API key and implement authorization (OAuth) - shouldn't be difficult
-https://dev.twitter.com/docs/auth/authorizing-request
+Will have to sign up for an API key and implement authorization (OAuth) - 
+<a href-"https://dev.twitter.com/docs/auth/authorizing-request">shouldn't be difficult</a>
