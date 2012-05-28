@@ -7,5 +7,4 @@ Could have different options for listening, e.g. `keyword-based`, `user-based`, 
 
 Collect data and store in a database
 
-Will have to sign up for an API key and implement authorization (OAuth) - 
-<a href-"https://dev.twitter.com/docs/auth/authorizing-request" target="_blank">shouldn't be difficult</a>
+Will have to sign up for an API key and implement <a href="https://dev.twitter.com/docs/auth/authorizing-request" target="_blank">authorization (OAuth)</a>
