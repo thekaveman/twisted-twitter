@@ -6,6 +6,7 @@
 *.exe
 *.o
 *.so
+*.pyc
 
 # Packages #
 ############
@@ -22,6 +23,7 @@
 
 # Logs and databases #
 ######################
+log/*
 *.log
 *.sql
 *.sqlite
@@ -32,3 +34,11 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# Backup Files #
+##########
+*~
+
+# Exceptions #
+##############
+!.gitignore
